@@ -1,0 +1,22 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "a simple react setup",
+  "main": "index.js",
+  "author": "ejoo",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.7.22",
+    "@types/react-dom": "^16.8.0",
+    "parcel": "^1.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  }
+}
